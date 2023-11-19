@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins';
     width: 100%;
     height: 90rem;
+    overflow-x: hidden;
 }
 
 main{
@@ -21,7 +22,7 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 0 3rem;
-    background-color: black;
+    background-color: #101920;
 }
 
 #logo{
@@ -78,44 +79,37 @@ a{
     padding: 3rem;
 }
 
-.eventos{
-    display: flex;
-    flex-direction: column;
-    background-color: green;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-}
 
 .imagem{
     width: 18vw;
     height: 22vh;
-    border: 5px solid red;
+    width: 15rem;
+    height: 8rem;
+
 }
 
 .imagem img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 0.8rem;
 }
 
 .eventounit{
     display: flex;
-    gap: 1.5rem;
+    gap: 0 1.5rem ;
     box-sizing: border-box;
     background-color: rgb(236, 236, 236);
-    width: 70%;
-    height: 100%;
-    padding-left: 0.1rem;
-    padding-top: 1rem;
+    width: 100%;
+    height: auto;
     border-radius: 1rem;
-    justify-content: center;
+    
+    padding: 1rem;
 }
 
 .descricao{
     height: 100%;
-    max-width: 40vw;
+    max-width: 25vw;
 }
 
 .descricao p:nth-child(1){
@@ -123,11 +117,11 @@ a{
 }
 
 .descricao p:nth-child(2){
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 #populares{
-    background-color: pink ;
+    background-color: #101920;
     display: flex;
     width: 100vw; /* A seção ocupa 100% da largura */
     min-height: 100vh;
@@ -138,19 +132,52 @@ a{
 
 .eventos{
     gap: 2rem;
-    width: 100%;
-    height: 100vh;
+    width: 50%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
+    background-color: #101920;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 #populares>p{
     font-size: 1.5rem;
+    color: white;
+    
+    position: relative;
+    max-width: 20%;
+}
+
+#populares>p::after{
+    content: "";
+  display: block;
+  border-bottom: 1px solid #000; /* Cor e estilo da linha */
+  border-bottom: 2px outset gold;
+  width: 50%; /* Ajuste a largura conforme necessário */
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 
 
 /* footer */
 
+
+
+
+
+
+/* HOVER */
+
+#atr1, #atr2, #atr3{
+    transition: transform 0.3s ease;
+}
+#atr1:hover, #atr2:hover, #atr3:hover{
+    transform: scale(1.05);
+    box-shadow: 1rem 1rem 4rem rgba(255, 255, 255, 0.26);
+}
 
 
 /*MEDIA QUERY*/
@@ -161,6 +188,10 @@ a{
       overflow: hidden;
     }
 
+  }
+
+  body{
+    overflow-x: hidden;
   }
 
 
