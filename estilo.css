@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    width: 100%;
+    height: 90rem;
+}
+
+main{
+    width: auto;
+    height: auto;
+}
+
+/* NAV */
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    background-color: black;
+}
+
+#logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+#logo img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+/* CAPA TEATRO BOLSHOI*/
+
+#capa{
+    width: 100%;
+    height: 75vh;
+    background-color: aqua;
+}
+
+#capalogo{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#capalogo img{
+    justify-content: center;
+}
+
+
+
+/* POPULARES */
+
+#populares{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.eventos{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.imagem{
+    width: 18vw;
+    height: 22vh;
+    border: 5px solid red;
+}
+
+.imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.eventounit{
+    display: flex;
+    gap: 1.5rem;
+    box-sizing: border-box;
+    background-color: rgb(236, 236, 236);
+    width: 70%;
+    height: 100%;
+    padding-left: 0.1rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.descricao{
+    height: 100%;
+    max-width: 40vw;
+}
+
+.descricao p:nth-child(1){
+    font-size: 1rem;
+}
+
+.descricao p:nth-child(2){
+    font-size: 0.8rem;
+}
+
+#populares{
+    background-color: pink ;
+    display: flex;
+    width: 100%; /* A seção ocupa 100% da largura */
+    min-height: 100vh;
+    height: auto;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.eventos{
+    gap: 2rem;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#populares>p{
+    font-size: 1.5rem;
+}
+
+
+
+/* footer */
+
+
+
+/*MEDIA QUERY*/
+
+@media (max-width: 768px) {
+    section {
+      min-height: 50vh; /* Reduzindo a altura para telas menores */
+    }
+  }
+
+
+
