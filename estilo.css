@@ -129,7 +129,7 @@ a{
 #populares{
     background-color: pink ;
     display: flex;
-    width: 100%; /* A seção ocupa 100% da largura */
+    width: 100vw; /* A seção ocupa 100% da largura */
     min-height: 100vh;
     height: auto;
     flex-direction: column;
@@ -140,7 +140,7 @@ a{
     gap: 2rem;
     width: 100%;
     height: 100vh;
-    
+    display: flex;
 }
 
 #populares>p{
@@ -158,7 +158,9 @@ a{
 @media (max-width: 768px) {
     section {
       min-height: 50vh; /* Reduzindo a altura para telas menores */
+      overflow: hidden;
     }
+
   }
 
 
