@@ -7,7 +7,7 @@
 body{
     font-family: 'Poppins';
     width: 100%;
-    height: 90rem;
+    height: auto;
     overflow-x: hidden;
 }
 
@@ -36,7 +36,7 @@ main{
     object-fit: cover;
 }
 
-a{
+nav a{
     text-decoration: none;
     color: white;
 }
@@ -79,6 +79,11 @@ a{
     padding: 3rem;
 }
 
+
+.eventos a{
+    text-decoration: none;
+    color: black;
+}
 
 .imagem{
     width: 18vw;
@@ -162,8 +167,20 @@ a{
 
 
 
-/* footer */
 
+/* footer */
+footer{
+    height: auto;
+}
+
+#partefooter{
+    max-width: 40vw;
+}
+
+.foot{
+    display: flex;
+    padding: 0.5rem;
+}
 
 
 
