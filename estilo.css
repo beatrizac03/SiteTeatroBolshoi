@@ -212,7 +212,7 @@ footer{
         max-width: 45vw;
     }
     .eventounit{
-        height: 17.5vh;
+        height: 18vh;
         width: 100%;
         gap: 0.8rem;
         padding: 0.5rem;
@@ -222,13 +222,13 @@ footer{
     }
     .imagem{
         width: 15rem;
-        height: 8rem;
+        height: 7rem;
     }
     .descricao p:nth-child(1){
         font-size: 0.8rem;
     }
     .descricao p:nth-child(2){
-        font-size: 0.5rem;
+        font-size: 0.4rem;
     }
     #populares{
         padding: 1.5rem;
