@@ -9,10 +9,10 @@ function calcular(){
 
     if(qtde == 1){
         res.innerHTML = ''
-        res.innerHTML += `<p>Você precisa vender ${qtde} ingresso para custear o evento.</p>`
+        res.innerHTML += `<p class="texto">Você precisa vender ${qtde} ingresso para custear o evento.</p>`
     } else{
         res.innerHTML = ''
-        res.innerHTML += `<p>Você precisa vender ${qtde} ingressos para custear o evento.</p>`
+        res.innerHTML += `<p class="texto">Você precisa vender ${qtde} ingressos para custear o evento.</p>`
     }
 
     valorunit.value = '' 

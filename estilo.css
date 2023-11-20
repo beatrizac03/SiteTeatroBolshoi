@@ -212,7 +212,7 @@ footer{
         max-width: 45vw;
     }
     .eventounit{
-        height: 16vh;
+        height: 17.5vh;
         width: 100%;
         gap: 0.8rem;
         padding: 0.5rem;
@@ -238,6 +238,9 @@ footer{
     }
     #partefooter .foot:last-child p{
         text-decoration: none;
+    }
+    #nav{
+        padding: 0 1.5rem;
     }
   body{
     overflow-x: hidden;

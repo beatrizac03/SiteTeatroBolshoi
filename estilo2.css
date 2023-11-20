@@ -85,3 +85,33 @@ input#num{
 /* imagem */
 
 
+
+/* MEDIA QUERY */
+@media (max-width: 768px){
+
+    
+    #introd{
+        height: 23vh;
+    }
+    #cor{
+        height: 5vh;
+    }
+    #image{
+        width: 60vw;
+    }
+    #texto2{
+        width: 80vw;
+    }
+    #result{
+        width: 80vw;
+    }
+    #result>p{
+        font-size: 0.8rem;
+    }
+
+}
+body{
+    overflow-x: hidden;
+}
+
+

@@ -6,9 +6,14 @@ function comprar(){
     let val_total
     val_total = Number(val_total)
 
-    res.innerHTML = ''
-    res.innerHTML += `<p>Compra Efetuada! Você comprou ${qtde} ingressos</p></br>`
-    
+    if(qtde == 1){
+        res.innerHTML = ''
+        res.innerHTML += `<p>Compra Efetuada! Você comprou ${qtde} ingresso</p></br>`
+    } else{
+        res.innerHTML = ''
+        res.innerHTML += `<p>Compra Efetuada! Você comprou ${qtde} ingressos</p></br>`
+    }
+
     val_total = qtde * 150
     res.innerHTML += `<p class="detalhes-compra">Detalhes da Compra</p>`
     res.innerHTML += `<p class="det">Valor final: R$ ${val_total} </p>`
