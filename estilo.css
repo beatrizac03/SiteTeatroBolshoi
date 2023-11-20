@@ -203,17 +203,18 @@ footer{
       overflow: hidden;
     }
     .eventos{
-        padding-top: 0.5rem;
+        padding-top: 1rem;
         width: 100%;
+        min-height: auto;
     }
     .descricao{
         flex-wrap: wrap;
         max-width: 45vw;
     }
     .eventounit{
-        height: 20vh;
+        height: 16vh;
         width: 100%;
-        gap: 0.5rem;
+        gap: 0.8rem;
         padding: 0.5rem;
     }
     #partefooter{
@@ -232,11 +233,15 @@ footer{
     #populares{
         padding: 1.5rem;
     }
-  }
-
+    #populares>p{
+        max-width: 40vw;
+    }
+    #partefooter .foot:last-child p{
+        text-decoration: none;
+    }
   body{
     overflow-x: hidden;
   }
 
-
+}
 
