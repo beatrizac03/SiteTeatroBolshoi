@@ -204,6 +204,17 @@ footer{
       min-height: 50vh; /* Reduzindo a altura para telas menores */
       overflow: hidden;
     }
+    .eventos{
+        padding-top: 0.5rem;
+        width: auto;
+    }
+    .descricao p{
+        flex-wrap: wrap;
+    }
+    .eventounit{
+        height: 20vh;
+        width: 100%;
+    }
 
   }
 
